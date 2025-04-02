@@ -1,49 +1,49 @@
 <!DOCTYPE html>
-<!-- saved from url=(0033)https://dsm122n.github.io/reclab/ -->
-<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Reclab_files/styles.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="./Reclab_files/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
 
     <title>Reclab</title>
 </head>
-<body class="vsc-initialized">
+<body>
     <div class="flex">
         <h1>Reclab</h1>
 
         <div class="container">
             <form id="reclabForm">
                 <label for="nombre">Nombre y Apellidos</label>
-                <input type="text" name="nombre" id="nombre" required="">
+                <input type="text" name="nombre" id="nombre" required>
 
                 <label for="rut">RUT</label>
-                <input type="text" name="rut" id="rut" required="">
+                <input type="text" name="rut" id="rut" required>
                 
                 <label for="fecha">Fecha Nacimiento</label>
-                <input type="date" name="fecha" id="fecha_nacimiento" required="">
+                <input type="date" name="fecha" id="fecha_nacimiento" required>
 
 
                 <label for="edad">Edad</label>
-                <input type="number" name="edad" id="edad">
+                <input type="number" name="edad" id="edad" >
                 <label for="sexo">Sexo</label>
-                <select name="sexo" id="sexo" required="" style="width: 100%;">
-                    <option value="" disabled="" selected="">Seleccione una opción</option>
+                <select name="sexo" id="sexo" required style="width: 100%;">
+                    <option value="" disabled selected>Seleccione una opción</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
                 </select>
 
                 <label for="hipotesis_diagnostica">Hipótesis Diagnóstica</label>
-                <input type="text" name="hipotesis_diagnostica" id="hipotesis_diagnostica" required="">
+                <input type="text" name="hipotesis_diagnostica" id="hipotesis_diagnostica" required>
 
                 <label for="fecha_solicitud">Fecha de Solicitud</label>
-                <input type="date" name="fecha_solicitud" id="fecha_solicitud" required="">
+                <input type="date" name="fecha_solicitud" id="fecha_solicitud" required>
 
                 <label for="examen">Exámenes</label>
                 <div class="examenes">
                     <div class="examen">
                         <select name="examen" class="examen-select" id="input_examen">
-                            <option value="" disabled="" selected="">Seleccione exámenes del listado</option>
+                            <option value="" disabled selected>Seleccione exámenes del listado</option>
                             <option value="Perfil hematológico">Perfil hematológico</option>
                             <option value="Hemograma">Hemograma</option>
                             <option value="Recuento de Plaquetas">Recuento de Plaquetas</option>
@@ -92,10 +92,9 @@
         </div>
     </div>
 
-    <script src="./Reclab_files/script.js.descarga">
+    <script src="script.js">
 
         
     </script>
-
-
-</body></html>
+</body>
+</html>

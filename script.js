@@ -12,12 +12,12 @@ var datosPaciente = {
 
 }
 var datosPrescriptor = {
-    nombre: "Christopher Joseph Morrison Corrales",
+    nombre: "Daniel Arturo San Martín Martínez",
     profesion: "Médico Cirujano",
-    cedula: "20.592.2115-K",
-    numero_registro: "863754",
-    mail:"christopher_morrison_corrales@hotmail.com",
-    direccion: "Willie Arthur 2092, Providencia, Santiago de Chile"
+    cedula: "20.283.646-1",
+    numero_registro: "861577",
+    mail:"dasanmartinm@gmail.com - +569 6831 2852",
+    direccion: "Comandante Las Heras 2180, San Bernardo, Región Metropolitana"
 }
 const solicitud = [];
 
